@@ -11,7 +11,7 @@ var Smoke = function (options = {}) {
         canvasHeight: 500,
         count: 20,
         velocity: 1.25,//速度
-        url: '../img/smoke.png'
+        url: 'img/smoke.png'
     };
 
     this.params = Object.assign({}, options, defaults);
